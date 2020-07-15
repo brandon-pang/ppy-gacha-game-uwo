@@ -1,0 +1,205 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="buyKeyContainer/Mc_buyKeySelect1" itemID="5b201e02-000003c1" lastModified="1529543448">
+  <timeline>
+    <DOMTimeline name="Mc_buyKeySelect1">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Mc_sales_mark" name="mc_sale_mark" selected="true">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-0.499984741210938" c="0.499984741210938" d="0.86602783203125" tx="11" ty="72.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="77" y="14.65"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter blurX="4" blurY="4" color="#666666" distance="1" quality="2"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_8" color="#FF4F4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txt_title" fontRenderingMode="standard" width="162.55" height="13.05" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="3" ty="3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>DEAL</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="13.05" size="11" bitmapSize="220" face="Rubik-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="txt_bt_key" fontRenderingMode="standard" width="162.55" height="23.7" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="3.45" ty="271.3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>5 KEYS</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="23.7" size="20" bitmapSize="400" face="Rubik-Bold" fillColor="#5E320A"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="txt_price" fontRenderingMode="standard" width="162.55" height="16.6" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="3" ty="313"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>1200 UWC</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="16.6" size="14" bitmapSize="280" face="Rubik-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="txt_top_key" fontRenderingMode="standard" width="43.8" height="35.55" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="82.25" ty="83.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>5</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="35.55" size="30" bitmapSize="600" face="Rubik-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F7F3E6" alpha="0.698039215686274"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#DABC8A"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!20 5129|3360 5129!3360 5129|3360 6129!3360 6129|20 6129!20 6129|20 5129"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_5" color="#009999">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#C6AA7A"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!20 6190|3360 6190!3360 6190|3360 6670!3360 6670|20 6670!20 6670|20 6190"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_6" color="#FF0000">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F5A623"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#F7F3E6"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!2570 2022[2570 2228 2423 2375!2423 2375[2277 2522 2070 2522!2070 2522[1863 2522 1716 2375!1716 2375[1570 2228 1570 2022!1570 2022[1570 1815 1716 1668!1716 1668[1863 1522 2070 1522!2070 1522[2277 1522 2423 1668!2423 1668[2570 1815 2570
+ 2022"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_7" color="#669900">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#006786"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!20 0|3360 0!3360 0|3360 400!3360 400|20 400!20 400|20 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="key2.png" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="buyKeyContainer/key2.png">
+                  <matrix>
+                    <Matrix tx="31" ty="64.1"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="key-card.png" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="buyKeyContainer/key-card.png">
+                  <matrix>
+                    <Matrix ty="17.1"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

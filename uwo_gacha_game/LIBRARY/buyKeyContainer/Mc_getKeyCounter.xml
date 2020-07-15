@@ -1,0 +1,142 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="buyKeyContainer/Mc_getKeyCounter" itemID="5b2031a6-00000405" lastModified="1528933248">
+  <timeline>
+    <DOMTimeline name="Mc_getKeyCounter">
+      <layers>
+        <DOMLayer name="Layer_4" color="#FF4FFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txt_count_balance" selected="true" fontRenderingMode="standard" width="284.95" height="15.4" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="43.6" ty="110.65"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="15.4" size="13" bitmapSize="260" face="Rubik-Bold" fillColor="#5E320A"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMBitmapInstance libraryItemName="buyKeyContainer/key2.png">
+                  <matrix>
+                    <Matrix a="0.4918212890625" d="0.4918212890625" tx="26" ty="17"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txt_count_no" fontRenderingMode="standard" width="110.05" height="47.4" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="102" ty="26"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>0</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="47.4" size="40" bitmapSize="800" face="Rubik-Bold" fillColor="#5E320A"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_5" color="#009999">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Btn_count_down" name="btn_down" symbolType="button">
+                  <matrix>
+                    <Matrix tx="215.05" ty="50"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="24" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Btn_count_up" name="btn_up" symbolType="button">
+                  <matrix>
+                    <Matrix tx="215.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="24" y="25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Btn_ok" name="btn_ok" symbolType="button">
+                  <matrix>
+                    <Matrix tx="264.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#C6AA7A" alpha="0.4"/>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor color="#C6AA7A" alpha="0.8"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#C6AA7A"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!5281 0|7281 0!7281 0|7281 2000!7281 2000|5281 2000!4301 0|5261 0!5261 0|5261 1000"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!2001 0|4281 0!4281 0|4281 1000"/>
+                    <Edge strokeStyle="1" edges="!4281 1000|5261 1000!5261 1000|5261 2000!5261 2000|4301 2000"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!4281 1000|4281 2000!4281 2000|2001 2000"/>
+                    <Edge fillStyle1="2" strokeStyle="1" edges="!0 0|2000 0!2000 0|2000 2000!2000 2000|0 2000!0 2000|0 0"/>
+                    <Edge fillStyle1="1" edges="!2001 2000|2001 0"/>
+                    <Edge cubics="!0 2000(;0,2000 0,0 0,0q0 2000 0 0);"/>
+                    <Edge cubics="!2000 2000(;2000,2000 0,2000 0,2000q2000 2000 0 2000);"/>
+                    <Edge cubics="!2000 0(;2000,0 2000,2000 2000,2000q2000 0 2000 2000);"/>
+                    <Edge cubics="!0 0(;0,0 2000,0 2000,0q0 0 2000 0);"/>
+                    <Edge cubics="!2001 2000(;2001,2000 2001,0 2001,0q2001 2000 2001 0);"/>
+                    <Edge cubics="!4281 2000(;4281,2000 2001,2000 2001,2000q4281 2000 2001 2000);"/>
+                    <Edge cubics="!4281 0(;4281,0 4281,1000 4281,1000q4281 0 4281 1000);"/>
+                    <Edge cubics="!4281 1000(;4281,1000 4281,2000 4281,2000q4281 1000 4281 2000);"/>
+                    <Edge cubics="!2001 0(;2001,0 4281,0 4281,0q2001 0 4281 0);"/>
+                    <Edge cubics="!4301 1000(;4301,1000 4301,0 4301,0q4301 1000 4301 0);"/>
+                    <Edge cubics="!5261 2000(;5261,2000 4301,2000 4301,2000q5261 2000 4301 2000);"/>
+                    <Edge cubics="!4301 0(;4301,0 5261,0 5261,0q4301 0 5261 0);"/>
+                    <Edge cubics="!5281 2000(;5281,2000 5281,0 5281,0q5281 2000 5281 0);"/>
+                    <Edge cubics="!7281 2000(;7281,2000 5281,2000 5281,2000q7281 2000 5281 2000);"/>
+                    <Edge cubics="!7281 0(;7281,0 7281,2000 7281,2000q7281 0 7281 2000);"/>
+                    <Edge cubics="!5281 0(;5281,0 7281,0 7281,0q5281 0 7281 0);"/>
+                    <Edge cubics="!4281 1000(;4281,1000 4301,1000 4301,1000q4281 1000 4301 1000);"/>
+                    <Edge cubics="!5261 0(;5261,0 5261,1000 5261,1000q5261 0 5261 1000);"/>
+                    <Edge cubics="!4301 1000(;4301,1000 5261,1000 5261,1000q4301 1000 5261 1000);"/>
+                    <Edge cubics="!5261 1000(;5261,1000 5261,2000 5261,2000q5261 1000 5261 2000);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

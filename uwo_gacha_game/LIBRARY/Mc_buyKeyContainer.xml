@@ -1,0 +1,522 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Mc_buyKeyContainer" itemID="5b20194e-0000037c" lastModified="1529546993" lastUniqueIdentifier="10">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="Mc_buyKeyContainer" currentFrame="40" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;-228&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="Layer_5" color="#009999">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="22" name="start" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="24" duration="16" name="counter" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="40" duration="19" name="confirm" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="59" duration="20" name="success" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="79" duration="20" name="error" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_7" color="#669900">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.buyKeySelecter.visible = false;
+this.buyKeyCounter.visible = false;
+this.buyKeyConfirm.visible = false;
+this.buyKeySuccess.visible = false;
+this.buyKeyError.visible = false;]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="10" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[
+//
+$("#scrollIcons").css({top:-400,left:aniLeft.left});]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="12" duration="11" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.buyKeySelecter.visible = true;
+this.buyKeyCounter.visible = false;
+this.buyKeyConfirm.visible = false;
+this.buyKeySuccess.visible = false;
+this.buyKeyError.visible = false;
+
+this.parent.parent.isBuyLabelFlag="start";
+this.buyKeySelecter.gotoAndPlay('start');
+]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="23" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="24" duration="15" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.buyKeySelecter.visible = false;
+this.buyKeyCounter.visible = true;
+this.buyKeyConfirm.visible = false;
+this.buyKeySuccess.visible = false;
+this.buyKeyError.visible = false;
+
+this.buyKeyCounter.gotoAndPlay('start');]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="39" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="40" duration="18" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.buyKeySelecter.visible = false;
+this.buyKeyCounter.visible = false;
+this.buyKeyConfirm.visible = true;
+this.buyKeySuccess.visible = false;
+this.buyKeyError.visible = false;
+
+this.buyKeyConfirm.gotoAndPlay('start');]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="58" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="59" duration="19" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.buyKeySelecter.visible = false;
+this.buyKeyCounter.visible = false;
+this.buyKeyConfirm.visible = false;
+this.buyKeySuccess.visible = true;
+this.buyKeyError.visible = false;
+
+this.buyKeySuccess.gotoAndPlay("start");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="78" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="79" duration="19" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.buyKeySelecter.visible = false;
+this.buyKeyCounter.visible = false;
+this.buyKeyConfirm.visible = false;
+this.buyKeySuccess.visible = false;
+this.buyKeyError.visible = true;
+
+this.buyKeyError.gotoAndPlay("start");
+]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="98" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Mc_balance_indicate" name="mc_balance" centerPoint3DX="689.05" centerPoint3DY="86">
+                  <matrix>
+                    <Matrix tx="618.15" ty="74"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="83.5" y="12"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quartIn">
+              <tweens>
+                <Ease target="all" method="quartIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Mc_balance_indicate" name="mc_balance" centerPoint3DX="689.05" centerPoint3DY="76">
+                  <matrix>
+                    <Matrix tx="618.15" ty="64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="83.5" y="12"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="83" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Mc_balance_indicate" name="mc_balance" centerPoint3DX="689.05" centerPoint3DY="86">
+                  <matrix>
+                    <Matrix tx="618.15" ty="74"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="83.5" y="12"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mc_title" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameResult/MC_result_title" name="mc_title">
+                  <transformationPoint>
+                    <Point x="380" y="37"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quartIn">
+              <tweens>
+                <Ease target="all" method="quartIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameResult/MC_result_title" name="mc_title" centerPoint3DX="380" centerPoint3DY="22">
+                  <matrix>
+                    <Matrix ty="-14"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="380" y="37"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quartOut">
+              <tweens>
+                <Ease target="all" method="quartOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameResult/MC_result_title" name="mc_title" centerPoint3DX="380" centerPoint3DY="41">
+                  <matrix>
+                    <Matrix ty="5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="380" y="37"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" duration="88" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameResult/MC_result_title" name="mc_title" centerPoint3DX="380" centerPoint3DY="36">
+                  <transformationPoint>
+                    <Point x="380" y="37"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="buyKeySelecter" color="#FF4F4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelectBox" name="buyKeySelecter">
+                  <matrix>
+                    <Matrix tx="27" ty="118"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="353.25" y="166.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" duration="12" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelectBox" name="buyKeySelecter" centerPoint3DX="380" centerPoint3DY="284.75">
+                  <matrix>
+                    <Matrix tx="27" ty="118"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="353.25" y="166.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" duration="76" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelectBox" name="buyKeySelecter" centerPoint3DX="380" centerPoint3DY="284.75">
+                  <matrix>
+                    <Matrix tx="27" ty="118"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="353.25" y="166.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="buyKeyCounter" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_captainPickSelecter" name="buyKeyCounter">
+                  <matrix>
+                    <Matrix tx="23" ty="71"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="361.6" y="216.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="15" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_captainPickSelecter" name="buyKeyCounter" centerPoint3DX="384.6" centerPoint3DY="287.45">
+                  <matrix>
+                    <Matrix tx="23" ty="71"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="361.6" y="216.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="39" duration="60" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_captainPickSelecter" name="buyKeyCounter" centerPoint3DX="384.6" centerPoint3DY="287.45">
+                  <matrix>
+                    <Matrix tx="23" ty="71"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="361.6" y="216.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="buyKeyConfirm" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="40" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_confirm" name="buyKeyConfirm">
+                  <matrix>
+                    <Matrix tx="23" ty="71"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="361.6" y="216.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="18" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_confirm" name="buyKeyConfirm" selected="true" centerPoint3DX="356.6" centerPoint3DY="287.45">
+                  <matrix>
+                    <Matrix tx="23" ty="71"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="361.6" y="216.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="58" duration="41" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_confirm" name="buyKeyConfirm" selected="true" centerPoint3DX="356.6" centerPoint3DY="287.45">
+                  <matrix>
+                    <Matrix tx="23" ty="71"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="361.6" y="216.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="buyKeySuccess" color="#009999" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="59" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_success" name="buyKeySuccess">
+                  <matrix>
+                    <Matrix tx="23" ty="71"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="361.6" y="216.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="19" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_success" name="buyKeySuccess" centerPoint3DX="384.5" centerPoint3DY="287.5">
+                  <matrix>
+                    <Matrix tx="23" ty="71"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="361.6" y="216.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="78" duration="21" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_success" name="buyKeySuccess" centerPoint3DX="384.5" centerPoint3DY="287.5">
+                  <matrix>
+                    <Matrix tx="23" ty="71"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="361.6" y="216.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="buyKeyError" color="#FF0000" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="79" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Mc_buyKeyError" name="buyKeyError">
+                  <matrix>
+                    <Matrix tx="23" ty="71"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="389.6" y="216.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="79" duration="19" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Mc_buyKeyError" name="buyKeyError" centerPoint3DX="412.6" centerPoint3DY="287.45">
+                  <matrix>
+                    <Matrix tx="23" ty="71"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="389.6" y="216.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="98" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Mc_buyKeyError" name="buyKeyError" centerPoint3DX="412.6" centerPoint3DY="287.45">
+                  <matrix>
+                    <Matrix tx="23" ty="71"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="389.6" y="216.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeyBg">
+                  <matrix>
+                    <Matrix ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="380" y="250"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="cubicIn">
+              <tweens>
+                <Ease target="all" method="cubicIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeyBg" centerPoint3DX="380" centerPoint3DY="253">
+                  <matrix>
+                    <Matrix ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="380" y="250"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="90" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeyBg" centerPoint3DX="380" centerPoint3DY="253">
+                  <matrix>
+                    <Matrix ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="380" y="250"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

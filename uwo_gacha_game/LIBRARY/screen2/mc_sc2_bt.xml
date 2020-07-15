@@ -1,0 +1,54 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="screen2/mc_sc2_bt" itemID="5b05f813-000004dc" lastModified="1529355765">
+  <timeline>
+    <DOMTimeline name="mc_sc2_bt">
+      <layers>
+        <DOMLayer name="Layer 1" color="#0000FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.02587890625" c="-0.0201416015625" d="0" tx="379.95" ty="22.5"/>
+                        </matrix>
+                        <GradientEntry alpha="0" ratio="0"/>
+                        <GradientEntry ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 0|15199 0!15199 0|15199 900!15199 900|0 900!0 900|0 0"/>
+                    <Edge cubics="!15199 0(;15199,0 15199,900 15199,900q15199 0 15199 900);"/>
+                    <Edge cubics="!0 900(;0,900 0,0 0,0q0 900 0 0);"/>
+                    <Edge cubics="!0 0(;0,0 15199,0 15199,0q0 0 15199 0);"/>
+                    <Edge cubics="!15199 900(;15199,900 0,900 0,900q15199 900 0 900);"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="screen2/btn_all_items" name="btn_all_item" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="306" ty="13"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="152.95" y="19.15"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter angle="90" blurX="1" blurY="1" distance="1" quality="2"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,530 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="screen2/btn_radio" itemID="5b072877-000017a9" lastModified="1527206742">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="btn_radio">
+      <layers>
+        <DOMLayer name="Layer_6" color="#FF0000">
+          <frames>
+            <DOMFrame index="0" duration="7" name="normal" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="7" duration="6" name="over" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="13" duration="6" name="selected" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="19" duration="6" name="selectOver" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="25" duration="5" name="selectOut" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="7" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="12" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="13" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="18" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="19" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="24" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="25" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="29" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_4" color="#FF4FFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="30" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="no_text" selected="true" fontRenderingMode="standard" width="44.5" height="18.95" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="20.55" ty="1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>1</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="18.95" size="16" bitmapSize="320" face="Rubik-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="13" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="13" duration="5" tweenType="shape" keyMode="17922" easeMethodName="cubicIn">
+              <tweens>
+                <Ease target="all" method="cubicIn"/>
+              </tweens>
+              <MorphShape>
+                <morphSegments>
+                  <MorphSegment startPointA="#0.3C, #0.D1" startPointB="#0.3C, #0.D1" strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="1">
+                    <MorphCurves controlPointA="#0.3C, #0.AF" anchorPointA="#0.53, #0.98" controlPointB="#0.3C, #0.AF" anchorPointB="#0.53, #0.98"/>
+                    <MorphCurves controlPointA="#0.6B, #0.81" anchorPointA="#0.8C, #0.81" controlPointB="#0.6B, #0.81" anchorPointB="#0.8C, #0.81"/>
+                    <MorphCurves controlPointA="#0.AD, #0.81" anchorPointA="#0.C4, #0.98" controlPointB="#0.AD, #0.81" anchorPointB="#0.C4, #0.98"/>
+                    <MorphCurves controlPointA="#0.DC, #0.AF" anchorPointA="#0.DC, #0.D1" controlPointB="#0.DC, #0.AF" anchorPointB="#0.DC, #0.D1"/>
+                    <MorphCurves controlPointA="#0.DC, #0.F2" anchorPointA="#0.C4, #1.09" controlPointB="#0.DC, #0.F2" anchorPointB="#0.C4, #1.09"/>
+                    <MorphCurves controlPointA="#0.AD, #1.21" anchorPointA="#0.8C, #1.21" controlPointB="#0.AD, #1.21" anchorPointB="#0.8C, #1.21"/>
+                    <MorphCurves controlPointA="#0.6B, #1.21" anchorPointA="#0.53, #1.09" controlPointB="#0.6B, #1.21" anchorPointB="#0.53, #1.09"/>
+                    <MorphCurves controlPointA="#0.3C, #0.F2" anchorPointA="#0.3C, #0.D1" controlPointB="#0.3C, #0.F2" anchorPointB="#0.3C, #0.D1"/>
+                  </MorphSegment>
+                </morphSegments>
+                <morphHintsList/>
+              </MorphShape>
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F0B319" alpha="0"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!220 209[220 242 196 265!196 265[173 289 140 289!140 289[107 289 83 265!83 265[60 242 60 209!60 209[60 175 83 152!83 152[107 129 140 129!140 129[173 129 196 152!196 152[220 175 220 209"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F0B319"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!220 209[220 242 196 265!196 265[173 289 140 289!140 289[107 289 83 265!83 265[60 242 60 209!60 209[60 175 83 152!83 152[107 129 140 129!140 129[173 129 196 152!196 152[220 175 220 209"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="19" duration="5" tweenType="shape" keyMode="17922" easeMethodName="cubicOut">
+              <tweens>
+                <Ease target="all" method="cubicOut"/>
+              </tweens>
+              <MorphShape>
+                <morphSegments>
+                  <MorphSegment startPointA="#0.3C, #0.D1" startPointB="#0.3C, #0.D1" strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="1">
+                    <MorphCurves controlPointA="#0.3C, #0.AF" anchorPointA="#0.53, #0.98" controlPointB="#0.3C, #0.AF" anchorPointB="#0.53, #0.98"/>
+                    <MorphCurves controlPointA="#0.6B, #0.81" anchorPointA="#0.8C, #0.81" controlPointB="#0.6B, #0.81" anchorPointB="#0.8C, #0.81"/>
+                    <MorphCurves controlPointA="#0.AD, #0.81" anchorPointA="#0.C4, #0.98" controlPointB="#0.AD, #0.81" anchorPointB="#0.C4, #0.98"/>
+                    <MorphCurves controlPointA="#0.DC, #0.AF" anchorPointA="#0.DC, #0.D1" controlPointB="#0.DC, #0.AF" anchorPointB="#0.DC, #0.D1"/>
+                    <MorphCurves controlPointA="#0.DC, #0.F2" anchorPointA="#0.C4, #1.09" controlPointB="#0.DC, #0.F2" anchorPointB="#0.C4, #1.09"/>
+                    <MorphCurves controlPointA="#0.AD, #1.21" anchorPointA="#0.8C, #1.21" controlPointB="#0.AD, #1.21" anchorPointB="#0.8C, #1.21"/>
+                    <MorphCurves controlPointA="#0.6B, #1.21" anchorPointA="#0.53, #1.09" controlPointB="#0.6B, #1.21" anchorPointB="#0.53, #1.09"/>
+                    <MorphCurves controlPointA="#0.3C, #0.F2" anchorPointA="#0.3C, #0.D1" controlPointB="#0.3C, #0.F2" anchorPointB="#0.3C, #0.D1"/>
+                  </MorphSegment>
+                </morphSegments>
+                <morphHintsList/>
+              </MorphShape>
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F0B319"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!220 209[220 242 196 265!196 265[173 289 140 289!140 289[107 289 83 265!83 265[60 242 60 209!60 209[60 175 83 152!83 152[107 129 140 129!140 129[173 129 196 152!196 152[220 175 220 209"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!220 209S2[220 242 196 265!196 265[173 289 140 289!140 289[107 289 83 265!83 265[60 242 60 209!60 209[60 175 83 152!83 152[107 129 140 129!140 129[173 129 196 152!196 152[220 175 220 209"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" duration="4" tweenType="shape" keyMode="17922">
+              <MorphShape>
+                <morphSegments>
+                  <MorphSegment startPointA="#0.3C, #0.D1" startPointB="#0.3C, #0.D1" strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="1">
+                    <MorphCurves controlPointA="#0.3C, #0.AF" anchorPointA="#0.53, #0.98" controlPointB="#0.3C, #0.AF" anchorPointB="#0.53, #0.98"/>
+                    <MorphCurves controlPointA="#0.6B, #0.81" anchorPointA="#0.8C, #0.81" controlPointB="#0.6B, #0.81" anchorPointB="#0.8C, #0.81"/>
+                    <MorphCurves controlPointA="#0.AD, #0.81" anchorPointA="#0.C4, #0.98" controlPointB="#0.AD, #0.81" anchorPointB="#0.C4, #0.98"/>
+                    <MorphCurves controlPointA="#0.DC, #0.AF" anchorPointA="#0.DC, #0.D1" controlPointB="#0.DC, #0.AF" anchorPointB="#0.DC, #0.D1"/>
+                    <MorphCurves controlPointA="#0.DC, #0.F2" anchorPointA="#0.C4, #1.09" controlPointB="#0.DC, #0.F2" anchorPointB="#0.C4, #1.09"/>
+                    <MorphCurves controlPointA="#0.AD, #1.21" anchorPointA="#0.8C, #1.21" controlPointB="#0.AD, #1.21" anchorPointB="#0.8C, #1.21"/>
+                    <MorphCurves controlPointA="#0.6B, #1.21" anchorPointA="#0.53, #1.09" controlPointB="#0.6B, #1.21" anchorPointB="#0.53, #1.09"/>
+                    <MorphCurves controlPointA="#0.3C, #0.F2" anchorPointA="#0.3C, #0.D1" controlPointB="#0.3C, #0.F2" anchorPointB="#0.3C, #0.D1"/>
+                  </MorphSegment>
+                </morphSegments>
+                <morphHintsList/>
+              </MorphShape>
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!220 209[220 242 196 265!196 265[173 289 140 289!140 289[107 289 83 265!83 265[60 242 60 209!60 209[60 175 83 152!83 152[107 129 140 129!140 129[173 129 196 152!196 152[220 175 220 209"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F0B319"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!220 209[220 242 196 265!196 265[173 289 140 289!140 289[107 289 83 265!83 265[60 242 60 209!60 209[60 175 83 152!83 152[107 129 140 129!140 129[173 129 196 152!196 152[220 175 220 209"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" duration="7" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix ty="3.45"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!280 140[280 197 239 238!239 238[198 280 140 280!140 280[82 280 41 238!41 238[0 197 0 140!0 140[0 82 41 40!41 40[82 0 140 0!140 0[198 0 239 40!239 40[280 82 280 140"/>
+                    <Edge cubics="!280 140(;280,178 266,211 239,238q280 140Q280 197q239 238);"/>
+                    <Edge cubics="!239 40(;266,68 280,101 280,140q239 40Q280 82q280 140);"/>
+                    <Edge cubics="!41 238(;14,211 0,178 0,140q41 238Q0 197q0 140);"/>
+                    <Edge cubics="!41 40(;68,13 101,0 140,0q41 40Q82 0q140 0);"/>
+                    <Edge cubics="!0 140(;0,101 14,68 41,40q0 140Q0 82q41 40);"/>
+                    <Edge cubics="!140 280(;101,280 68,266 41,238q140 280Q82 280q41 238);"/>
+                    <Edge cubics="!239 238(;212,266 179,280 140,280q239 238Q198 280q140 280);"/>
+                    <Edge cubics="!140 0(;179,0 212,13 239,40q140 0Q198 0q239 40);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="5" tweenType="shape" keyMode="17922" easeMethodName="cubicIn">
+              <tweens>
+                <Ease target="all" method="cubicIn"/>
+              </tweens>
+              <MorphShape>
+                <morphSegments>
+                  <MorphSegment startPointA="0, #0.D1" startPointB="0, #0.D1" strokeIndex1="0" strokeIndex2="1">
+                    <MorphCurves controlPointA="0, #0.97" anchorPointA="#0.29, #0.6D" controlPointB="0, #0.97" anchorPointB="#0.29, #0.6D"/>
+                    <MorphCurves controlPointA="#0.52, #0.45" anchorPointA="#0.8C, #0.45" controlPointB="#0.52, #0.45" anchorPointB="#0.8C, #0.45"/>
+                    <MorphCurves controlPointA="#0.C6, #0.45" anchorPointA="#0.EF, #0.6D" controlPointB="#0.C6, #0.45" anchorPointB="#0.EF, #0.6D"/>
+                    <MorphCurves controlPointA="#1.18, #0.97" anchorPointA="#1.18, #0.D1" controlPointB="#1.18, #0.97" anchorPointB="#1.18, #0.D1"/>
+                    <MorphCurves controlPointA="#1.18, #1.0A" anchorPointA="#0.EF, #1.33" controlPointB="#1.18, #1.0A" anchorPointB="#0.EF, #1.33"/>
+                    <MorphCurves controlPointA="#0.C6, #1.5D" anchorPointA="#0.8C, #1.5D" controlPointB="#0.C6, #1.5D" anchorPointB="#0.8C, #1.5D"/>
+                    <MorphCurves controlPointA="#0.52, #1.5D" anchorPointA="#0.29, #1.33" controlPointB="#0.52, #1.5D" anchorPointB="#0.29, #1.33"/>
+                    <MorphCurves controlPointA="0, #1.0A" anchorPointA="0, #0.D1" controlPointB="0, #1.0A" anchorPointB="0, #0.D1"/>
+                  </MorphSegment>
+                  <MorphSegment startPointA="0, #0.D1" startPointB="0, #0.D1" strokeIndex1="0" strokeIndex2="1">
+                    <MorphCurves controlPointA="0, #0.97" anchorPointA="#0.29, #0.6D" controlPointB="0, #0.97" anchorPointB="#0.29, #0.6D"/>
+                    <MorphCurves controlPointA="#0.52, #0.45" anchorPointA="#0.8C, #0.45" controlPointB="#0.52, #0.45" anchorPointB="#0.8C, #0.45"/>
+                    <MorphCurves controlPointA="#0.C6, #0.45" anchorPointA="#0.EF, #0.6D" controlPointB="#0.C6, #0.45" anchorPointB="#0.EF, #0.6D"/>
+                    <MorphCurves controlPointA="#1.18, #0.97" anchorPointA="#1.18, #0.D1" controlPointB="#1.18, #0.97" anchorPointB="#1.18, #0.D1"/>
+                    <MorphCurves controlPointA="#1.18, #1.0A" anchorPointA="#0.EF, #1.33" controlPointB="#1.18, #1.0A" anchorPointB="#0.EF, #1.33"/>
+                    <MorphCurves controlPointA="#0.C6, #1.5D" anchorPointA="#0.8C, #1.5D" controlPointB="#0.C6, #1.5D" anchorPointB="#0.8C, #1.5D"/>
+                    <MorphCurves controlPointA="#0.52, #1.5D" anchorPointA="#0.29, #1.33" controlPointB="#0.52, #1.5D" anchorPointB="#0.29, #1.33"/>
+                    <MorphCurves controlPointA="0, #1.0A" anchorPointA="0, #0.D1" controlPointB="0, #1.0A" anchorPointB="0, #0.D1"/>
+                  </MorphSegment>
+                </morphSegments>
+                <morphHintsList/>
+              </MorphShape>
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix ty="3.45"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!280 140[280 197 239 238!239 238[198 280 140 280!140 280[82 280 41 238!41 238[0 197 0 140!0 140[0 82 41 40!41 40[82 0 140 0!140 0[198 0 239 40!239 40[280 82 280 140"/>
+                    <Edge cubics="!280 140(;280,178 266,211 239,238q280 140Q280 197q239 238);"/>
+                    <Edge cubics="!239 40(;266,68 280,101 280,140q239 40Q280 82q280 140);"/>
+                    <Edge cubics="!41 238(;14,211 0,178 0,140q41 238Q0 197q0 140);"/>
+                    <Edge cubics="!41 40(;68,13 101,0 140,0q41 40Q82 0q140 0);"/>
+                    <Edge cubics="!0 140(;0,101 14,68 41,40q0 140Q0 82q41 40);"/>
+                    <Edge cubics="!140 280(;101,280 68,266 41,238q140 280Q82 280q41 238);"/>
+                    <Edge cubics="!239 238(;212,266 179,280 140,280q239 238Q198 280q140 280);"/>
+                    <Edge cubics="!140 0(;179,0 212,13 239,40q140 0Q198 0q239 40);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="7" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix ty="3.45"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#F0B319"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!280 140[280 197 239 238!239 238[198 280 140 280!140 280[82 280 41 238!41 238[0 197 0 140!0 140[0 82 41 40!41 40[82 0 140 0!140 0[198 0 239 40!239 40[280 82 280 140"/>
+                    <Edge cubics="!280 140(;280,178 266,211 239,238q280 140Q280 197q239 238);"/>
+                    <Edge cubics="!239 40(;266,68 280,101 280,140q239 40Q280 82q280 140);"/>
+                    <Edge cubics="!41 238(;14,211 0,178 0,140q41 238Q0 197q0 140);"/>
+                    <Edge cubics="!41 40(;68,13 101,0 140,0q41 40Q82 0q140 0);"/>
+                    <Edge cubics="!0 140(;0,101 14,68 41,40q0 140Q0 82q41 40);"/>
+                    <Edge cubics="!140 280(;101,280 68,266 41,238q140 280Q82 280q41 238);"/>
+                    <Edge cubics="!239 238(;212,266 179,280 140,280q239 238Q198 280q140 280);"/>
+                    <Edge cubics="!140 0(;179,0 212,13 239,40q140 0Q198 0q239 40);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="19" duration="5" tweenType="shape" keyMode="17922" easeMethodName="cubicOut">
+              <tweens>
+                <Ease target="all" method="cubicOut"/>
+              </tweens>
+              <MorphShape>
+                <morphSegments>
+                  <MorphSegment startPointA="0, #0.D1" startPointB="0, #0.D1" strokeIndex1="0" strokeIndex2="1">
+                    <MorphCurves controlPointA="0, #0.97" anchorPointA="#0.29, #0.6D" controlPointB="0, #0.97" anchorPointB="#0.29, #0.6D"/>
+                    <MorphCurves controlPointA="#0.52, #0.45" anchorPointA="#0.8C, #0.45" controlPointB="#0.52, #0.45" anchorPointB="#0.8C, #0.45"/>
+                    <MorphCurves controlPointA="#0.C6, #0.45" anchorPointA="#0.EF, #0.6D" controlPointB="#0.C6, #0.45" anchorPointB="#0.EF, #0.6D"/>
+                    <MorphCurves controlPointA="#1.18, #0.97" anchorPointA="#1.18, #0.D1" controlPointB="#1.18, #0.97" anchorPointB="#1.18, #0.D1"/>
+                    <MorphCurves controlPointA="#1.18, #1.0A" anchorPointA="#0.EF, #1.33" controlPointB="#1.18, #1.0A" anchorPointB="#0.EF, #1.33"/>
+                    <MorphCurves controlPointA="#0.C6, #1.5D" anchorPointA="#0.8C, #1.5D" controlPointB="#0.C6, #1.5D" anchorPointB="#0.8C, #1.5D"/>
+                    <MorphCurves controlPointA="#0.52, #1.5D" anchorPointA="#0.29, #1.33" controlPointB="#0.52, #1.5D" anchorPointB="#0.29, #1.33"/>
+                    <MorphCurves controlPointA="0, #1.0A" anchorPointA="0, #0.D1" controlPointB="0, #1.0A" anchorPointB="0, #0.D1"/>
+                  </MorphSegment>
+                  <MorphSegment startPointA="0, #0.D1" startPointB="0, #0.D1" strokeIndex1="0" strokeIndex2="1">
+                    <MorphCurves controlPointA="0, #0.97" anchorPointA="#0.29, #0.6D" controlPointB="0, #0.97" anchorPointB="#0.29, #0.6D"/>
+                    <MorphCurves controlPointA="#0.52, #0.45" anchorPointA="#0.8C, #0.45" controlPointB="#0.52, #0.45" anchorPointB="#0.8C, #0.45"/>
+                    <MorphCurves controlPointA="#0.C6, #0.45" anchorPointA="#0.EF, #0.6D" controlPointB="#0.C6, #0.45" anchorPointB="#0.EF, #0.6D"/>
+                    <MorphCurves controlPointA="#1.18, #0.97" anchorPointA="#1.18, #0.D1" controlPointB="#1.18, #0.97" anchorPointB="#1.18, #0.D1"/>
+                    <MorphCurves controlPointA="#1.18, #1.0A" anchorPointA="#0.EF, #1.33" controlPointB="#1.18, #1.0A" anchorPointB="#0.EF, #1.33"/>
+                    <MorphCurves controlPointA="#0.C6, #1.5D" anchorPointA="#0.8C, #1.5D" controlPointB="#0.C6, #1.5D" anchorPointB="#0.8C, #1.5D"/>
+                    <MorphCurves controlPointA="#0.52, #1.5D" anchorPointA="#0.29, #1.33" controlPointB="#0.52, #1.5D" anchorPointB="#0.29, #1.33"/>
+                    <MorphCurves controlPointA="0, #1.0A" anchorPointA="0, #0.D1" controlPointB="0, #1.0A" anchorPointB="0, #0.D1"/>
+                  </MorphSegment>
+                </morphSegments>
+                <morphHintsList/>
+              </MorphShape>
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix ty="3.45"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#F0B319"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!280 140[280 197 239 238!239 238[198 280 140 280!140 280[82 280 41 238!41 238[0 197 0 140!0 140[0 82 41 40!41 40[82 0 140 0!140 0[198 0 239 40!239 40[280 82 280 140"/>
+                    <Edge cubics="!280 140(;280,178 266,211 239,238q280 140Q280 197q239 238);"/>
+                    <Edge cubics="!239 40(;266,68 280,101 280,140q239 40Q280 82q280 140);"/>
+                    <Edge cubics="!41 238(;14,211 0,178 0,140q41 238Q0 197q0 140);"/>
+                    <Edge cubics="!41 40(;68,13 101,0 140,0q41 40Q82 0q140 0);"/>
+                    <Edge cubics="!0 140(;0,101 14,68 41,40q0 140Q0 82q41 40);"/>
+                    <Edge cubics="!140 280(;101,280 68,266 41,238q140 280Q82 280q41 238);"/>
+                    <Edge cubics="!239 238(;212,266 179,280 140,280q239 238Q198 280q140 280);"/>
+                    <Edge cubics="!140 0(;179,0 212,13 239,40q140 0Q198 0q239 40);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix ty="3.45"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!280 140[280 197 239 238!239 238[198 280 140 280!140 280[82 280 41 238!41 238[0 197 0 140!0 140[0 82 41 40!41 40[82 0 140 0!140 0[198 0 239 40!239 40[280 82 280 140"/>
+                    <Edge cubics="!280 140(;280,178 266,211 239,238q280 140Q280 197q239 238);"/>
+                    <Edge cubics="!239 40(;266,68 280,101 280,140q239 40Q280 82q280 140);"/>
+                    <Edge cubics="!41 238(;14,211 0,178 0,140q41 238Q0 197q0 140);"/>
+                    <Edge cubics="!41 40(;68,13 101,0 140,0q41 40Q82 0q140 0);"/>
+                    <Edge cubics="!0 140(;0,101 14,68 41,40q0 140Q0 82q41 40);"/>
+                    <Edge cubics="!140 280(;101,280 68,266 41,238q140 280Q82 280q41 238);"/>
+                    <Edge cubics="!239 238(;212,266 179,280 140,280q239 238Q198 280q140 280);"/>
+                    <Edge cubics="!140 0(;179,0 212,13 239,40q140 0Q198 0q239 40);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" duration="4" tweenType="shape" keyMode="17922">
+              <MorphShape>
+                <morphSegments>
+                  <MorphSegment startPointA="0, #0.D1" startPointB="0, #0.D1" strokeIndex1="0" strokeIndex2="1">
+                    <MorphCurves controlPointA="0, #0.97" anchorPointA="#0.29, #0.6D" controlPointB="0, #0.97" anchorPointB="#0.29, #0.6D"/>
+                    <MorphCurves controlPointA="#0.52, #0.45" anchorPointA="#0.8C, #0.45" controlPointB="#0.52, #0.45" anchorPointB="#0.8C, #0.45"/>
+                    <MorphCurves controlPointA="#0.C6, #0.45" anchorPointA="#0.EF, #0.6D" controlPointB="#0.C6, #0.45" anchorPointB="#0.EF, #0.6D"/>
+                    <MorphCurves controlPointA="#1.18, #0.97" anchorPointA="#1.18, #0.D1" controlPointB="#1.18, #0.97" anchorPointB="#1.18, #0.D1"/>
+                    <MorphCurves controlPointA="#1.18, #1.0A" anchorPointA="#0.EF, #1.33" controlPointB="#1.18, #1.0A" anchorPointB="#0.EF, #1.33"/>
+                    <MorphCurves controlPointA="#0.C6, #1.5D" anchorPointA="#0.8C, #1.5D" controlPointB="#0.C6, #1.5D" anchorPointB="#0.8C, #1.5D"/>
+                    <MorphCurves controlPointA="#0.52, #1.5D" anchorPointA="#0.29, #1.33" controlPointB="#0.52, #1.5D" anchorPointB="#0.29, #1.33"/>
+                    <MorphCurves controlPointA="0, #1.0A" anchorPointA="0, #0.D1" controlPointB="0, #1.0A" anchorPointB="0, #0.D1"/>
+                  </MorphSegment>
+                  <MorphSegment startPointA="0, #0.D1" startPointB="0, #0.D1" strokeIndex1="0" strokeIndex2="1">
+                    <MorphCurves controlPointA="0, #0.97" anchorPointA="#0.29, #0.6D" controlPointB="0, #0.97" anchorPointB="#0.29, #0.6D"/>
+                    <MorphCurves controlPointA="#0.52, #0.45" anchorPointA="#0.8C, #0.45" controlPointB="#0.52, #0.45" anchorPointB="#0.8C, #0.45"/>
+                    <MorphCurves controlPointA="#0.C6, #0.45" anchorPointA="#0.EF, #0.6D" controlPointB="#0.C6, #0.45" anchorPointB="#0.EF, #0.6D"/>
+                    <MorphCurves controlPointA="#1.18, #0.97" anchorPointA="#1.18, #0.D1" controlPointB="#1.18, #0.97" anchorPointB="#1.18, #0.D1"/>
+                    <MorphCurves controlPointA="#1.18, #1.0A" anchorPointA="#0.EF, #1.33" controlPointB="#1.18, #1.0A" anchorPointB="#0.EF, #1.33"/>
+                    <MorphCurves controlPointA="#0.C6, #1.5D" anchorPointA="#0.8C, #1.5D" controlPointB="#0.C6, #1.5D" anchorPointB="#0.8C, #1.5D"/>
+                    <MorphCurves controlPointA="#0.52, #1.5D" anchorPointA="#0.29, #1.33" controlPointB="#0.52, #1.5D" anchorPointB="#0.29, #1.33"/>
+                    <MorphCurves controlPointA="0, #1.0A" anchorPointA="0, #0.D1" controlPointB="0, #1.0A" anchorPointB="0, #0.D1"/>
+                  </MorphSegment>
+                </morphSegments>
+                <morphHintsList/>
+              </MorphShape>
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix ty="3.45"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!280 140[280 197 239 238!239 238[198 280 140 280!140 280[82 280 41 238!41 238[0 197 0 140!0 140[0 82 41 40!41 40[82 0 140 0!140 0[198 0 239 40!239 40[280 82 280 140"/>
+                    <Edge cubics="!280 140(;280,178 266,211 239,238q280 140Q280 197q239 238);"/>
+                    <Edge cubics="!239 40(;266,68 280,101 280,140q239 40Q280 82q280 140);"/>
+                    <Edge cubics="!41 238(;14,211 0,178 0,140q41 238Q0 197q0 140);"/>
+                    <Edge cubics="!41 40(;68,13 101,0 140,0q41 40Q82 0q140 0);"/>
+                    <Edge cubics="!0 140(;0,101 14,68 41,40q0 140Q0 82q41 40);"/>
+                    <Edge cubics="!140 280(;101,280 68,266 41,238q140 280Q82 280q41 238);"/>
+                    <Edge cubics="!239 238(;212,266 179,280 140,280q239 238Q198 280q140 280);"/>
+                    <Edge cubics="!140 0(;179,0 212,13 239,40q140 0Q198 0q239 40);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix ty="3.45"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#F0B319"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!280 140[280 197 239 238!239 238[198 280 140 280!140 280[82 280 41 238!41 238[0 197 0 140!0 140[0 82 41 40!41 40[82 0 140 0!140 0[198 0 239 40!239 40[280 82 280 140"/>
+                    <Edge cubics="!280 140(;280,178 266,211 239,238q280 140Q280 197q239 238);"/>
+                    <Edge cubics="!239 40(;266,68 280,101 280,140q239 40Q280 82q280 140);"/>
+                    <Edge cubics="!41 238(;14,211 0,178 0,140q41 238Q0 197q0 140);"/>
+                    <Edge cubics="!41 40(;68,13 101,0 140,0q41 40Q82 0q140 0);"/>
+                    <Edge cubics="!0 140(;0,101 14,68 41,40q0 140Q0 82q41 40);"/>
+                    <Edge cubics="!140 280(;101,280 68,266 41,238q140 280Q82 280q41 238);"/>
+                    <Edge cubics="!239 238(;212,266 179,280 140,280q239 238Q198 280q140 280);"/>
+                    <Edge cubics="!140 0(;179,0 212,13 239,40q140 0Q198 0q239 40);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

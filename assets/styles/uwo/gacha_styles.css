@@ -1,0 +1,499 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif; }
+  body a {
+    text-decoration-line: none; }
+  body p {
+    margin: 0;
+    padding: 0; }
+
+.arrow_circle_back {
+  height: 38px;
+  width: 38px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .arrow_circle_back #leftArrow {
+    fill: #ffffff;
+    transition: fill .3s ease-out; }
+  .arrow_circle_back #rightArrow {
+    fill: #ffffff;
+    transition: fill .3s ease-out; }
+  .arrow_circle_back:hover #leftArrow, .arrow_circle_back:focus #leftArrow {
+    fill: #5E320A;
+    transition: fill .3s ease-in; }
+  .arrow_circle_back:hover #rightArrow, .arrow_circle_back:focus #rightArrow {
+    fill: #5E320A;
+    transition: fill .3s ease-in; }
+
+.sl-prev-arrow {
+  position: absolute;
+  left: 1%;
+  top: 30%;
+  z-index: 2;
+  height: 65px; }
+
+.sl-next-arrow {
+  position: absolute;
+  right: 1%;
+  top: 30%;
+  z-index: 2;
+  height: 65px; }
+
+#gacha_container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px; }
+  #gacha_container #normalItemTable {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1001;
+    height: 400px;
+    width: 724px;
+    overflow-y: auto; }
+  #gacha_container #scrollIcons {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1005;
+    width: 760px;
+    height: 88px; }
+    #gacha_container #scrollIcons .cont__slider {
+      width: 760px;
+      height: 88px; }
+      #gacha_container #scrollIcons .cont__slider .cont--icons {
+        cursor: pointer;
+        position: relative;
+        margin-left: 25px;
+        width: 77px;
+        height: 88px; }
+        #gacha_container #scrollIcons .cont__slider .cont--icons .icon-back {
+          width: 77px;
+          height: 88px; }
+        #gacha_container #scrollIcons .cont__slider .cont--icons .icon {
+          position: absolute;
+          top: 20px;
+          left: 15px;
+          right: 0;
+          bottom: 0;
+          width: 48px;
+          height: 48px; }
+
+#inventory {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1002;
+  width: 690px; }
+  #inventory .cont__filters {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 690px; }
+    #inventory .cont__filters .filter {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      height: 23px;
+      width: 115px;
+      border: 1px solid rgba(36, 81, 130, 0.8);
+      background-color: rgba(36, 81, 130, 0.7);
+      color: #FFFFFF;
+      font-family: Rubik;
+      font-size: 11px;
+      font-weight: bold;
+      letter-spacing: 0.24px;
+      line-height: 13px;
+      transition: all .3s ease-out; }
+      #inventory .cont__filters .filter:hover, #inventory .cont__filters .filter:focus {
+        border: 1px solid #DABC8A;
+        background-color: #C6AA7A;
+        transition: all .3s ease-in; }
+    #inventory .cont__filters .active {
+      border: 1px solid #DABC8A;
+      background-color: #C6AA7A;
+      transition: all .3s ease-in; }
+  #inventory .cont__itemlists {
+    width: 716px;
+    height: 302px;
+    overflow-y: auto;
+    margin-left: 30px; }
+    #inventory .cont__itemlists .wrap--list {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: wrap; }
+      #inventory .cont__itemlists .wrap--list .inven__item {
+        position: relative;
+        cursor: pointer;
+        margin-left: 2px;
+        margin-top: 5px;
+        transition: all .3s ease-out; }
+        #inventory .cont__itemlists .wrap--list .inven__item .item--normal {
+          background-image: url("/assets/images/uwo/gacha/images/inven_bg.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: top center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 70px;
+          width: 228px; }
+          #inventory .cont__itemlists .wrap--list .inven__item .item--normal .item__left {
+            padding-top: 4px;
+            padding-left: 10px;
+            width: 25%; }
+            #inventory .cont__itemlists .wrap--list .inven__item .item--normal .item__left .inven--img {
+              width: 48px;
+              height: 48px; }
+          #inventory .cont__itemlists .wrap--list .inven__item .item--normal .item__right {
+            width: 75%;
+            color: #383838;
+            font-family: "Rasa" sans-serif;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px; }
+          #inventory .cont__itemlists .wrap--list .inven__item .item--normal:hover {
+            background-image: url("/assets/images/uwo/gacha/images/inven_bg_hover.png");
+            transition: all .3s ease-in; }
+        #inventory .cont__itemlists .wrap--list .inven__item .item--select {
+          position: absolute;
+          z-index: 100;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          top: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: rgba(0, 0, 0, 0.7);
+          height: 70px;
+          width: 228px; }
+          #inventory .cont__itemlists .wrap--list .inven__item .item--select .text {
+            color: white;
+            font-family: "Rubik" sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+            letter-spacing: 5px;
+            text-transform: uppercase; }
+  #inventory .cont__btns {
+    margin-top: 15px;
+    width: 760px;
+    height: 60px;
+    background-color: rgba(24, 63, 106, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #inventory .cont__btns .btn__bank {
+      margin-left: 5px;
+      margin-right: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      height: 41px;
+      width: 194px;
+      border: 1px solid #15385F;
+      background-color: rgba(36, 81, 130, 0.4); }
+      #inventory .cont__btns .btn__bank .item__left #svg__icon {
+        fill: #15385F;
+        transition: all .3s ease-out; }
+      #inventory .cont__btns .btn__bank .item__right {
+        margin-left: 10px;
+        color: #15385F;
+        font-family: Rubik;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 0.26px;
+        line-height: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: all .3s ease-out; }
+    #inventory .cont__btns .btn__ryc {
+      margin-left: 5px;
+      margin-right: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      height: 41px;
+      width: 194px;
+      border: 1px solid #15385F;
+      background-color: rgba(36, 81, 130, 0.4); }
+      #inventory .cont__btns .btn__ryc .item__left #svg__icon {
+        fill: #15385F;
+        transition: all .3s ease-out; }
+      #inventory .cont__btns .btn__ryc .item__right {
+        margin-left: 10px;
+        color: #15385F;
+        font-family: Rubik;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 0.26px;
+        line-height: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: all .3s ease-out; }
+    #inventory .cont__btns .disable {
+      pointer-events: none; }
+    #inventory .cont__btns .active {
+      border: 1px solid #C6AA7A;
+      background-color: #C6AA7A; }
+      #inventory .cont__btns .active .item__left #svg__icon {
+        fill: #ffffff;
+        transition: all .3s ease-in; }
+      #inventory .cont__btns .active .item__right {
+        color: #ffffff;
+        transition: all .3s ease-in; }
+  #inventory .cont__cir-item-no {
+    position: absolute;
+    top: 293px;
+    right: 0;
+    left: 654px;
+    bottom: 0;
+    height: 77px;
+    width: 77px;
+    border-radius: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #inventory .cont__cir-item-no .text--no {
+      color: #5E320A;
+      font-family: "Rasa";
+      font-size: 36px;
+      font-weight: 100; }
+
+#confirm--select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1010;
+  width: 716px;
+  height: 405px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  #confirm--select .select-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 41px;
+    width: 443px;
+    border: 1px solid #245182;
+    background-color: rgba(21, 56, 95, 0.7);
+    color: #FFFFFF;
+    font-family: Rubik;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase; }
+  #confirm--select .cont__itemlists {
+    width: 716px;
+    height: 302px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #confirm--select .cont__itemlists .wrap--itemlist {
+      width: 716px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap; }
+      #confirm--select .cont__itemlists .wrap--itemlist .inven__item {
+        cursor: pointer;
+        margin-left: 2px;
+        margin-top: 5px;
+        transition: all .3s ease-out;
+        background-image: url("/assets/images/uwo/gacha/images/inven_bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+        width: 228px; }
+        #confirm--select .cont__itemlists .wrap--itemlist .inven__item .item__left {
+          padding-top: 4px;
+          padding-left: 10px;
+          width: 25%; }
+          #confirm--select .cont__itemlists .wrap--itemlist .inven__item .item__left .inven--img {
+            width: 48px;
+            height: 48px; }
+        #confirm--select .cont__itemlists .wrap--itemlist .inven__item .item__right {
+          width: 75%;
+          color: #383838;
+          font-family: "Rasa" sans-serif;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 15px; }
+        #confirm--select .cont__itemlists .wrap--itemlist .inven__item:hover {
+          background-image: url("/assets/images/uwo/gacha/images/inven_bg_hover.png");
+          transition: all .3s ease-in; }
+  #confirm--select .cont__btns {
+    margin-top: 15px;
+    width: 760px;
+    height: 60px;
+    background-color: rgba(24, 63, 106, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    #confirm--select .cont__btns .btn__cancel {
+      margin-left: 20px;
+      margin-right: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      box-sizing: border-box;
+      height: 41px;
+      width: 194px;
+      color: #ffffff;
+      font-family: Rubik;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 0.26px;
+      line-height: 14px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: all .3s ease-out; }
+    #confirm--select .cont__btns .btn__confirm {
+      margin-left: 5px;
+      margin-right: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      height: 41px;
+      width: 194px;
+      border: 1px solid #C6AA7A;
+      background-color: #C6AA7A;
+      color: #ffffff;
+      font-family: Rubik;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 0.26px;
+      line-height: 14px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: all .3s ease-out; }
+    #confirm--select .cont__btns .btn__space {
+      margin-left: 5px;
+      margin-right: 5px;
+      box-sizing: border-box;
+      height: 41px;
+      width: 194px; }
+    #confirm--select .cont__btns .disable {
+      pointer-events: none; }
+    #confirm--select .cont__btns .active {
+      border: 1px solid #C6AA7A;
+      background-color: #C6AA7A; }
+      #confirm--select .cont__btns .active .item__left #svg__icon {
+        fill: #ffffff;
+        transition: all .3s ease-in; }
+      #confirm--select .cont__btns .active .item__right {
+        color: #ffffff;
+        transition: all .3s ease-in; }
+
+#ok--send-bank {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+#iconDetail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1010;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 316px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  opacity: .8; }
+  #iconDetail .cont__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px; }
+    #iconDetail .cont__box .box--top {
+      position: relative;
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 328px;
+      height: 130px; }
+      #iconDetail .cont__box .box--top .icon--back {
+        width: auto;
+        height: 90px; }
+      #iconDetail .cont__box .box--top .icon--img {
+        position: absolute;
+        width: 48px;
+        height: 48px; }
+    #iconDetail .cont__box .box--bt {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+      #iconDetail .cont__box .box--bt .bt--cate {
+        margin-top: 5px;
+        color: #245182;
+        font-family: "Rubik";
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        line-height: 12px;
+        text-transform: uppercase; }
+      #iconDetail .cont__box .box--bt .bt--title {
+        margin-top: 2px;
+        color: #8B0000;
+        font-family: "Rasa";
+        font-size: 28px;
+        letter-spacing: 0.43px;
+        line-height: 29px; }
+      #iconDetail .cont__box .box--bt .bt--desc {
+        margin-top: 1px;
+        width: 328px;
+        color: #5E320A;
+        font-family: Rubik;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        word-wrap: break-word; }

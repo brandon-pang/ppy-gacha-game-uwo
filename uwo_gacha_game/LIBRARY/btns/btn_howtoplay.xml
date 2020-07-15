@@ -1,0 +1,133 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="btns/btn_howtoplay" itemID="5b05d60c-000003f6" symbolType="button" lastModified="1527109554">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="btn_howtoplay">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="HOW TO PLAY?" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="btn_text" selected="true" fontRenderingMode="standard" left="9.65" width="141.3" height="18.95" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="1.05" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="18.95" size="16" bitmapSize="320" face="Rubik-Bold" fillColor="#245182"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMGroup selected="true">
+                          <members>
+                            <DOMGroup selected="true">
+                              <members>
+                                <DOMShape selected="true" isDrawingObject="true">
+                                  <matrix>
+                                    <Matrix ty="2.5"/>
+                                  </matrix>
+                                  <fills>
+                                    <FillStyle index="1">
+                                      <SolidColor color="#244F80"/>
+                                    </FillStyle>
+                                  </fills>
+                                  <edges>
+                                    <Edge fillStyle1="1" edges="!0 170[0 100 50 50!50 50[100 0 170 0!170 0[240 0 290 50!290 50[340 100 340 170!340 170[340 240 290 290!290 290[240 340 170 340!170 340[100 340 50 290!50 290[0 241 0 170!141 110|185 110!185 110|196 121!196 121|196 138!196 138|141 174!141
+ 174|141 208!141 208|184 208!184 208|184 191!184 191|238 156!238 156|238 105!238 105|203 70!203 70|122 70!122 70|85 107!85 107|114 137!114 137|141 110!139 259|151 270!151 270|175 270!175 270|186 259!186 259|186 235!186 235|173 224!173
+ 224|151 224!151 224|139 235!139 235|139 259"/>
+                                    <Edge cubics="!139 259(;139,259 151,270 151,270p139 259q151 270);"/>
+                                    <Edge cubics="!151 270(;151,270 175,270 175,270p151 270q175 270);"/>
+                                    <Edge cubics="!175 270(;175,270 186,259 186,259p175 270q186 259);"/>
+                                    <Edge cubics="!186 259(;186,259 186,235 186,235p186 259q186 235);"/>
+                                    <Edge cubics="!186 235(;186,235 173,224 173,224p186 235q173 224);"/>
+                                    <Edge cubics="!173 224(;173,224 151,224 151,224p173 224q151 224);"/>
+                                    <Edge cubics="!151 224(;151,224 139,235 139,235p151 224q139 235);"/>
+                                    <Edge cubics="!139 235(;139,235 139,259 139,259p139 235q139 259);"/>
+                                    <Edge cubics="!141 110(;141,110 185,110 185,110p141 110q185 110);"/>
+                                    <Edge cubics="!185 110(;185,110 196,121 196,121p185 110q196 121);"/>
+                                    <Edge cubics="!196 121(;196,121 196,138 196,138q196 121 196 138);"/>
+                                    <Edge cubics="!196 138(;196,138 141,174 141,174q196 138 141 174);"/>
+                                    <Edge cubics="!141 174(;141,174 141,208 141,208q141 174 141 208);"/>
+                                    <Edge cubics="!141 208(;141,208 184,208 184,208q141 208 184 208);"/>
+                                    <Edge cubics="!184 208(;184,208 184,191 184,191q184 208 184 191);"/>
+                                    <Edge cubics="!184 191(;184,191 238,156 238,156q184 191 238 156);"/>
+                                    <Edge cubics="!238 156(;238,156 238,105 238,105q238 156 238 105);"/>
+                                    <Edge cubics="!238 105(;238,105 203,70 203,70q238 105 203 70);"/>
+                                    <Edge cubics="!203 70(;203,70 122,70 122,70q203 70 122 70);"/>
+                                    <Edge cubics="!122 70(;122,70 85,107 85,107q122 70 85 107);"/>
+                                    <Edge cubics="!85 107(;85,107 114,137 114,137q85 107 114 137);"/>
+                                    <Edge cubics="!114 137(;114,137 141,110 141,110q114 137 141 110);"/>
+                                    <Edge cubics="!0 170(;0,77 76,0 170,0q0 170Q0 100q50 50Q100 0q170 0);"/>
+                                    <Edge cubics="!170 0(;263,0 340,77 340,170q170 0Q240 0q290 50Q340 100q340 170);"/>
+                                    <Edge cubics="!340 170(;340,264 263,340 170,340q340 170Q340 240q290 290Q240 340q170 340);"/>
+                                    <Edge cubics="!170 340(;76,340 0,264 0,170q170 340Q100 340q50 290Q0 241q0 170);"/>
+                                  </edges>
+                                </DOMShape>
+                              </members>
+                            </DOMGroup>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="143.95" objectHeight="25.5" x="-1.45" y="-0.5" lockFlag="true">
+                  <fill>
+                    <SolidColor color="#245182"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <SolidColor color="#245182"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

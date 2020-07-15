@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Mc_seasonTitle" itemID="5b2ae6ce-00000f88" lastModified="1529538259">
+  <timeline>
+    <DOMTimeline name="Mc_seasonTitle">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txt" selected="true" fontRenderingMode="standard" left="-212.95" width="630.95" height="32.5" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="214.95" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Season Title</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="32.5" size="27" bitmapSize="540" face="Gf-Rubik-Medium" webFontInfo='{"familyName":"Gf-Rubik","familyID":"Rubik","variationName":"500","variationID":"4","variationIndex":"4","postScriptName":"Gf-Rubik-Medium","familyCSSName":"Rubik","fvd":"n5","type":"gfonts"}' fillColor="#996600"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

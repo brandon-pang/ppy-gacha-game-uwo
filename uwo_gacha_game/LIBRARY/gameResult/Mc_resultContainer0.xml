@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="gameResult/Mc_resultContainer0" itemID="5b1ef12a-000007de" lastModified="1528769365" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="Mc_resultContainer0">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameResult/Mc_result_bg" name="box0" selected="true">
+                  <matrix>
+                    <Matrix tx="10" ty="7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="370.75" y="171.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

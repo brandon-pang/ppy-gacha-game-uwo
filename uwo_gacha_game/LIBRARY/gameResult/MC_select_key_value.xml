@@ -1,0 +1,288 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="gameResult/MC_select_key_value" itemID="5b1aca03-0000036f" lastModified="1528937251">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="MC_select_key_value" currentFrame="19">
+      <layers>
+        <DOMLayer name="Layer_7" color="#669900">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="18" name="start" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_6" color="#FF0000">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="17" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="19" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mc_mid_box_icon" color="#00FFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="10" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen2/mc_chest_box" name="mc_mid_box_icon" centerPoint3DX="295.5" centerPoint3DY="166">
+                  <matrix>
+                    <Matrix tx="269.5" ty="140"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="26" y="26"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quartIn">
+              <tweens>
+                <Ease target="all" method="quartIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen2/mc_chest_box" name="mc_mid_box_icon" centerPoint3DX="303.5" centerPoint3DY="166">
+                  <matrix>
+                    <Matrix tx="277.5" ty="140"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="26" y="26"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen2/mc_chest_box" name="mc_mid_box_icon" centerPoint3DX="295.5" centerPoint3DY="166">
+                  <matrix>
+                    <Matrix tx="269.5" ty="140"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="26" y="26"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="rb_box_no2" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen2/btn_radio" name="rb_box_no2" centerPoint3DX="453.5" centerPoint3DY="166.45">
+                  <matrix>
+                    <Matrix tx="420" ty="156"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7" y="7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quartIn">
+              <tweens>
+                <Ease target="all" method="quartIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen2/btn_radio" name="rb_box_no2" selected="true" centerPoint3DX="446.5" centerPoint3DY="166.45">
+                  <matrix>
+                    <Matrix tx="413" ty="156"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7" y="7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="19" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen2/btn_radio" name="rb_box_no2" selected="true" centerPoint3DX="453.5" centerPoint3DY="166.45">
+                  <matrix>
+                    <Matrix tx="420" ty="156"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7" y="7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="rb_box_no1" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="12" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen2/btn_radio" name="rb_box_no1" centerPoint3DX="408" centerPoint3DY="166.45">
+                  <matrix>
+                    <Matrix tx="374.5" ty="156"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7" y="7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quartIn">
+              <tweens>
+                <Ease target="all" method="quartIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen2/btn_radio" name="rb_box_no1" selected="true" centerPoint3DX="401" centerPoint3DY="166.45">
+                  <matrix>
+                    <Matrix tx="367.5" ty="156"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7" y="7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen2/btn_radio" name="rb_box_no1" centerPoint3DX="408" centerPoint3DY="166.45">
+                  <matrix>
+                    <Matrix tx="374.5" ty="156"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7" y="7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="rb_box_no0" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="10" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen2/btn_radio" name="rb_box_no0" centerPoint3DX="362.5" centerPoint3DY="166.45">
+                  <matrix>
+                    <Matrix tx="329" ty="156"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7" y="7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quartIn">
+              <tweens>
+                <Ease target="all" method="quartIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen2/btn_radio" name="rb_box_no0" centerPoint3DX="355.5" centerPoint3DY="166.45">
+                  <matrix>
+                    <Matrix tx="322" ty="156"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7" y="7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen2/btn_radio" name="rb_box_no0" centerPoint3DX="362.5" centerPoint3DY="166.45">
+                  <matrix>
+                    <Matrix tx="329" ty="156"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7" y="7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mc_mid" color="#009999" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen2/mc_sc2_mid" name="mc_mid">
+                  <matrix>
+                    <Matrix tx="1" ty="124"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="380" y="41.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="cubicIn">
+              <tweens>
+                <Ease target="all" method="cubicIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen2/mc_sc2_mid" name="mc_mid" centerPoint3DX="381" centerPoint3DY="165.5">
+                  <matrix>
+                    <Matrix tx="1" ty="124"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="380" y="41.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screen2/mc_sc2_mid" name="mc_mid" centerPoint3DX="381" centerPoint3DY="165.5">
+                  <matrix>
+                    <Matrix tx="1" ty="124"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="380" y="41.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

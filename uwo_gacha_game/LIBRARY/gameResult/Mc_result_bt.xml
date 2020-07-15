@@ -1,0 +1,51 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="gameResult/Mc_result_bt" itemID="5b1ad5ec-00000657" lastModified="1528495085">
+  <timeline>
+    <DOMTimeline name="Mc_result_bt">
+      <layers>
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameResult/Btn_inventory" name="btn_go_inven" symbolType="button">
+                  <matrix>
+                    <Matrix tx="183" ty="15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="96.5" y="20"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="gameResult/Btn_open_more" name="btn_go_game" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="388" ty="15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="96.5" y="20"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#245182" alpha="0.8"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 100|15200 100!15200 100|15200 1300!15200 1300|0 1300!0 1300|0 100"/>
+                  </edges>
+                </DOMShape>
+                <DOMBitmapInstance libraryItemName="screen2/divider.png"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

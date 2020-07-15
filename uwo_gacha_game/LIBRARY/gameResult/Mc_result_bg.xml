@@ -1,0 +1,63 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="gameResult/Mc_result_bg" itemID="5b1ad4c4-00000640" lastModified="1528771383">
+  <timeline>
+    <DOMTimeline name="Mc_result_bg">
+      <layers>
+        <DOMLayer name="Layer_2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Mc_right_stat" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameResult/Mc_right_stat" name="resultRight">
+                  <matrix>
+                    <Matrix tx="378" ty="30"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="165" y="140"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Mc_result_content_left" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameResult/Mc_result_content_left" name="resultLeft" selected="true">
+                  <matrix>
+                    <Matrix tx="14" ty="30"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="178.5" y="143.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameResult/Mc_result_content_back">
+                  <matrix>
+                    <Matrix a="0.999252319335938"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="367.75" y="171.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

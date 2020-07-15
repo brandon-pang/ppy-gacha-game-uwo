@@ -1,0 +1,87 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="gameResult/Mc_result_content_left" itemID="5b1aee2f-00000684" lastModified="1528738779">
+  <timeline>
+    <DOMTimeline name="Mc_result_content_left">
+      <layers>
+        <DOMLayer name="mc_left_top" color="#FF0000" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameResult/Mc_left_top" name="imgContainer" selected="true">
+                  <matrix>
+                    <Matrix tx="2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="177" y="70"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txt_desc" color="#669900" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txt_desc" fontRenderingMode="standard" width="353" height="102.4" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="2" ty="182"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Armour made from the best materials in Japan. Exceptional water resistance and durability.&#xD;a&#xD;a&#xD;a&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="15.4" size="13" bitmapSize="260" face="Rubik-Regular" fillColor="#5E320A"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txt_name" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txt_name" fontRenderingMode="standard" width="353" height="23.1" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="2" ty="156.2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Modified Thick Hinoki Plating</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="23.1" size="20" bitmapSize="400" face="ManuskriptAntD-Reg" fillColor="#8B0000"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txt_ctg" color="#00FFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txt_ctg" fontRenderingMode="standard" width="352" height="15.25" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="2" ty="142"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>EXTRA ARMOURING</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="11.85" size="10" bitmapSize="200" face="Rubik-Medium" fillColor="#245182"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

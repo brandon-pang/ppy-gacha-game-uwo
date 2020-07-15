@@ -1,0 +1,275 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="buyKeyContainer/Mc_success" itemID="5b205afe-00000366" lastModified="1528918168" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="Mc_success" currentFrame="16">
+      <layers>
+        <DOMLayer name="Layer_6" color="#FF0000">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="17" name="start" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_5" color="#009999" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="16" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="18" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txt_top" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="7" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_txt_success" name="txt_top">
+                  <matrix>
+                    <Matrix tx="34" ty="66.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="330.5" y="20.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quartIn">
+              <tweens>
+                <Ease target="all" method="quartIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_txt_success" name="txt_top" centerPoint3DX="364.5" centerPoint3DY="74.25">
+                  <matrix>
+                    <Matrix tx="34" ty="53.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="330.5" y="20.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quartOut">
+              <tweens>
+                <Ease target="all" method="quartOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_txt_success" name="txt_top" centerPoint3DX="364.5" centerPoint3DY="95.25">
+                  <matrix>
+                    <Matrix tx="34" ty="74.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="330.5" y="20.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_txt_success" name="txt_top" centerPoint3DX="364.5" centerPoint3DY="87.25">
+                  <matrix>
+                    <Matrix tx="34" ty="66.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="330.5" y="20.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_open" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="10" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Btn_open_chest_now" name="btn_open" symbolType="button">
+                  <matrix>
+                    <Matrix tx="444" ty="195"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118" y="30"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quartIn">
+              <tweens>
+                <Ease target="all" method="quartIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Btn_open_chest_now" name="btn_open" symbolType="button" centerPoint3DX="578" centerPoint3DY="225">
+                  <matrix>
+                    <Matrix tx="460" ty="195"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118" y="30"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quartOut">
+              <tweens>
+                <Ease target="all" method="quartOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Btn_open_chest_now" name="btn_open" symbolType="button" centerPoint3DX="554" centerPoint3DY="225">
+                  <matrix>
+                    <Matrix tx="436" ty="195"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118" y="30"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Btn_open_chest_now" name="btn_open" selected="true" symbolType="button" centerPoint3DX="562" centerPoint3DY="225">
+                  <matrix>
+                    <Matrix tx="444" ty="195"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118" y="30"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="chestBoxKey" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="10" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_boxnkey" name="chestBoxKey">
+                  <matrix>
+                    <Matrix tx="79" ty="108"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="169.5" y="107.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quartIn">
+              <tweens>
+                <Ease target="all" method="quartIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_boxnkey" name="chestBoxKey">
+                  <matrix>
+                    <Matrix tx="52" ty="108"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="169.5" y="107.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quartOut">
+              <tweens>
+                <Ease target="all" method="quartOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_boxnkey" name="chestBoxKey" centerPoint3DX="269.45" centerPoint3DY="215.5">
+                  <matrix>
+                    <Matrix tx="88" ty="108"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="169.5" y="107.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_boxnkey" name="chestBoxKey" centerPoint3DX="260.45" centerPoint3DY="215.5">
+                  <matrix>
+                    <Matrix tx="79" ty="108"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="169.5" y="107.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg-buy-keys.png" color="#009999" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_bg">
+                  <transformationPoint>
+                    <Point x="361.6" y="216.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="circIn">
+              <tweens>
+                <Ease target="all" method="circIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_bg" centerPoint3DX="361.5" centerPoint3DY="216.5">
+                  <matrix>
+                    <Matrix a="0.0709381103515625" tx="335.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="361.6" y="216.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="12" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_bg" centerPoint3DX="361.5" centerPoint3DY="216.5">
+                  <transformationPoint>
+                    <Point x="361.6" y="216.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

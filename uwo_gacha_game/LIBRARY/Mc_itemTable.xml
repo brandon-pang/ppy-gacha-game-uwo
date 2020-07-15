@@ -1,0 +1,157 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Mc_itemTable" itemID="5b29325c-00000a57" lastModified="1529554763" lastUniqueIdentifier="10">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="Mc_itemTable" currentFrame="11" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;-228&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="Layer_5" color="#009999">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="10" name="start" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_7" color="#669900" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();
+$("#normalItemTable").css({display:"none",left:aniLeft.left});]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="9" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[setVisibleOuterContainer(2);]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();
+//open
+$("#normalItemTable").css({display:"block",top:aniLeft.top+itemTableTopMargin,left:aniLeft.left+itemTableLeftMargin});
+]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mc_title" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameResult/MC_result_title" name="mc_title">
+                  <transformationPoint>
+                    <Point x="380" y="37"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quartIn">
+              <tweens>
+                <Ease target="all" method="quartIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameResult/MC_result_title" name="mc_title" selected="true" centerPoint3DX="380" centerPoint3DY="22">
+                  <matrix>
+                    <Matrix ty="-14"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="380" y="37"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quartOut">
+              <tweens>
+                <Ease target="all" method="quartOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameResult/MC_result_title" name="mc_title" selected="true" centerPoint3DX="380" centerPoint3DY="41">
+                  <matrix>
+                    <Matrix ty="5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="380" y="37"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameResult/MC_result_title" name="mc_title" centerPoint3DX="380" centerPoint3DY="36">
+                  <transformationPoint>
+                    <Point x="380" y="37"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeyBg">
+                  <matrix>
+                    <Matrix ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="380" y="250"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="cubicIn">
+              <tweens>
+                <Ease target="all" method="cubicIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeyBg" selected="true" centerPoint3DX="380" centerPoint3DY="253">
+                  <matrix>
+                    <Matrix ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="380" y="250"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="invenContainer/Mc_invenbg" centerPoint3DX="380" centerPoint3DY="253">
+                  <matrix>
+                    <Matrix ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="380" y="250"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

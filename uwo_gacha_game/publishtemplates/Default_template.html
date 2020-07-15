@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="$VERSION">
+<title>$TITLE</title>
+<!-- write your code here -->
+$CENTER_STYLE
+$CREATEJS_LIBRARY_SCRIPTS
+$ANIMATE_CC_SCRIPTS
+$SCRIPT_START
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("$CANVAS_ID");
+	anim_container = document.getElementById("$ANIM_CONTAINER_ID");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	$CREATE_LOADER
+	$LOAD_MANIFEST
+}
+$HANDLE_FILE_LOAD_START	
+	$HANDLE_FILE_LOAD_BODY	
+$HANDLE_FILE_LOAD_END
+$HANDLE_COMPLETE_START
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	$CREATE_STAGE	
+	//Registers the "tick" event listener.
+	$START_ANIMATION	    
+	//Code to support hidpi screens and responsive scaling.
+	$RESP_HIDPI	
+$HANDLE_COMPLETE_END
+$PLAYSOUND
+$SCRIPT_END
+<!-- write your code here -->
+<link href="https://fonts.googleapis.com/css?family=Rasa:400,500,600|Rubik:400,500,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+<link rel="stylesheet" type="text/css" href="assets/styles/uwo/gacha_styles.css">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.4/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.5"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" type="text/javascript" ></script>
+</head>
+<body onload="init();" style="margin:0px;">
+<div id="gacha_container">
+	<div id="inventory">
+		<div class="cont__filters">
+			<div class="filter active">ALL</div>
+			<div class="filter">SHIPS</div>
+			<div class="filter">SHIP EQUIP</div>
+			<div class="filter">MATERIALS</div>
+			<div class="filter">CHAR EQUIP</div>
+			<div class="filter">CONSUMABLES</div>
+		</div>
+		<article class="cont__itemlists">
+			<div class="wrap--list">
+			<div class="inven__item" v-for="data in inventoryDatas">
+				<div class="item__left">
+					<img :src="data.IconURL" alt="" class="inven--img">
+				</div>
+				<div class="item__right">{{ data.ItemName | truncate(35) }}</div>
+			</div>
+		</article>
+		<div class="cont__btns">
+			<a href="" class="btn__bank">
+				<div class="item__left">
+					<svg width="23px" height="21px" viewBox="0 0 23 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<g id="svg__icon" transform="translate(-791.000000, -808.000000)" fill="#FFFFFF" fill-rule="nonzero">
+								<g id="butons" transform="translate(760.000000, 800.000000)">
+									<path d="M32.2100779,27.6875 L32.2100779,15.4010749 L31.8380984,15.6173711 C31.6814516,15.7084571 31.4748002,15.6565842 31.3809794,15.4989224 L31.0475317,14.9385776 C30.952271,14.7784958 31.0050854,14.5790078 31.1622799,14.4876035 L42.1636407,8.09060569 C42.3714018,7.9697981 42.6290821,7.9697981 42.8368432,8.09060569 L53.838204,14.4876035 C53.9960827,14.5794057 54.046773,14.7809158 53.9529523,14.9385776 L53.6195045,15.4989224 C53.5242438,15.6590042 53.3210247,15.7096155 53.1623855,15.6173711 L52.790406,15.4010749 L52.790406,27.6875 L53.4540509,27.6875 C53.6375073,27.6875 53.7862284,27.8329752 53.7862284,28.0186992 L53.7862284,28.6688008 C53.7862284,28.851717 53.6361208,29 53.4540509,29 L31.546433,29 C31.3629766,29 31.2142555,28.8545248 31.2142555,28.6688008 L31.2142555,28.0186992 C31.2142555,27.835783 31.3643632,27.6875 31.546433,27.6875 L32.2100779,27.6875 Z M34.5336633,27.6875 L34.5336633,22.4375 C34.5336633,22.0750633 34.8308934,21.78125 35.1975449,21.78125 L36.1933672,21.78125 L36.1933672,24.40625 C36.1933672,24.8940944 36.71273,25.2113884 37.1541455,24.9932177 L38.1850119,24.4837098 L39.2158782,24.9932177 C39.6572937,25.2113884 40.1766565,24.8940944 40.1766565,24.40625 L40.1766565,21.78125 L41.1724788,21.78125 C41.5391303,21.78125 41.8363604,22.0750633 41.8363604,22.4375 L41.8363604,27.6875 L43.1641235,27.6875 L43.1641235,22.4375 C43.1641235,22.0750633 43.4613536,21.78125 43.8280051,21.78125 L44.8238274,21.78125 L44.8238274,24.40625 C44.8238274,24.8940944 45.3431902,25.2113884 45.7846057,24.9932177 L46.8154721,24.4837098 L47.8463384,24.9932177 C48.2877539,25.2113884 48.8071167,24.8940944 48.8071167,24.40625 L48.8071167,21.78125 L49.802939,21.78125 C50.1695905,21.78125 50.4668206,22.0750633 50.4668206,22.4375 L50.4668206,27.6875 L51.4626429,27.6875 L51.4626429,14.6290161 L42.500242,9.41761902 L33.537841,14.6290161 L33.537841,27.6875 L34.5336633,27.6875 Z M40.5085973,13.25 L40.5085973,15.875 C40.5085973,16.3628444 41.0279601,16.6801385 41.4693756,16.4619679 L42.500242,15.9524598 L43.5311083,16.4619679 C43.9725238,16.6801385 44.4918866,16.3628444 44.4918866,15.875 L44.4918866,13.25 L45.4877089,13.25 C45.8543604,13.25 46.1515905,13.5438131 46.1515905,13.90625 L46.1515905,19.8125 C46.1515905,20.1749369 45.8543604,20.46875 45.4877089,20.46875 L39.512775,20.46875 C39.1461235,20.46875 38.8488934,20.1749369 38.8488934,19.8125 L38.8488934,13.90625 C38.8488934,13.5438131 39.1461235,13.25 39.512775,13.25 L40.5085973,13.25 Z M41.8363604,13.25 L43.1641235,13.25 L43.1641235,14.8131652 L42.7971387,14.6317822 C42.6102378,14.5394059 42.3902461,14.5394059 42.2033452,14.6317822 L41.8363604,14.8131652 L41.8363604,13.25 Z M37.5211303,21.78125 L38.8488934,21.78125 L38.8488934,23.3444152 L38.4819087,23.1630323 C38.2950077,23.0706559 38.075016,23.0706559 37.8881151,23.1630323 L37.5211303,23.3444152 L37.5211303,21.78125 Z M46.1515905,21.78125 L47.4793536,21.78125 L47.4793536,23.3444152 L47.1123688,23.1630323 C46.9254679,23.0706559 46.7054762,23.0706559 46.5185753,23.1630323 L46.1515905,23.3444152 L46.1515905,21.78125 Z" id="Shape"></path>
+								</g>
+							</g>
+						</g>
+					</svg>
+				</div>
+				<div class="item__right">Send to Bank</div>
+			</a>
+			<a href="" class="btn__ryc">
+				<div class="item__left">
+					<svg width="25px" height="21px" viewBox="0 0 25 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<g id="svg__icon" transform="translate(-1015.000000, -809.000000)" fill="#FFFFFF" fill-rule="nonzero">
+								<g id="butons" transform="translate(760.000000, 800.000000)">
+									<g id="Group-2" transform="translate(255.000000, 9.000000)">
+										<path d="M23.1513376,9.73012838 L25,9.73012838 L20.221243,14 L15.4365363,9.73012838 L17.2883153,9.73012838 C16.7358415,4.80553003 12.2503206,1.25818311 7.26983985,1.8044891 C6.84032686,1.85099515 6.41619695,1.92859862 6,2.03757966 C7.57100892,0.911068686 9.41967135,0.224964389 11.3524798,0.0465044305 C17.3140974,-0.500081721 22.5957472,3.83450615 23.1513376,9.73012838 Z" id="Shape"></path>
+										<path d="M1.84874513,11.2720809 L0,11.2720809 L4.77897076,7 L9.5630415,11.2720809 L7.71174637,11.2720809 C8.26396159,16.1941209 12.7499664,19.7411611 17.7303867,19.1951393 C18.1599189,19.1483535 18.5843511,19.0707506 19,18.9645719 C17.4289208,20.0888332 15.5807423,20.7768935 13.6475641,20.9531108 C7.68567977,21.5022143 2.40407701,17.1651375 1.84874513,11.2720809 Z" id="Shape"></path>
+									</g>
+								</g>
+							</g>
+						</g>
+					</svg>
+				</div>
+				<div class="item__right">Recycle</div>
+			</a>
+		</div>
+	</div>
+	<div id="normalItemTable" v-for="data in seasonInfo">
+		<img :src="data.ItemTableURL" alt="" class="item_table">
+	</div>
+	<div id="scrollIcons">
+		<div class="cont__slider" id="iconSl">
+			<div class="cont--icons" v-for="data in items">
+				<img :src="data.Tier" alt="" class="icon-back">
+				<img :src="data.IconURL" alt="" class="icon">
+			</div>
+		</div>
+	</div>
+	<div id="$ANIM_CONTAINER_ID" style="background-color:$BG; width:$WTpx; height:$HTpx">
+		<canvas id="$CANVAS_ID" width="$WT" height="$HT" style="position: absolute; display: $CANVAS_DISP; background-color:$BG;"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:$WTpx; height:$HTpx; position: absolute; left: 0px; top: 0px; display: $CANVAS_DISP;">
+		</div>
+	</div>
+</div>
+<script src="assets/scripts/uwo/gacha/gacha_control.js"></script>
+</body>
+</html>

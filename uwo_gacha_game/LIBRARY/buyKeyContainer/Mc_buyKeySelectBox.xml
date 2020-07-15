@@ -1,0 +1,293 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="buyKeyContainer/Mc_buyKeySelectBox" itemID="5b203495-0000042b" lastModified="1529543502" lastUniqueIdentifier="4">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="Mc_buyKeySelectBox" currentFrame="14">
+      <layers>
+        <DOMLayer name="Layer_6" color="#FF0000">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="13" name="start" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="12" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="14" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="keybox3" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="8" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelect3" name="keybox3">
+                  <matrix>
+                    <Matrix tx="538"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="bounceIn">
+              <tweens>
+                <Ease target="all" method="bounceIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelect3" name="keybox3" centerPoint3DX="622" centerPoint3DY="199.75">
+                  <matrix>
+                    <Matrix tx="538" ty="33"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="bounceOut">
+              <tweens>
+                <Ease target="all" method="bounceOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelect3" name="keybox3" centerPoint3DX="622" centerPoint3DY="155.75">
+                  <matrix>
+                    <Matrix tx="538" ty="-11"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelect3" name="keybox3" centerPoint3DX="622" centerPoint3DY="166.75">
+                  <matrix>
+                    <Matrix tx="538"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="keybox2" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelect2" name="keybox2">
+                  <matrix>
+                    <Matrix tx="359"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="bounceIn">
+              <tweens>
+                <Ease target="all" method="bounceIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelect2" name="keybox2" centerPoint3DX="443" centerPoint3DY="199.75">
+                  <matrix>
+                    <Matrix tx="359" ty="33"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="bounceOut">
+              <tweens>
+                <Ease target="all" method="bounceOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelect2" name="keybox2" centerPoint3DX="443" centerPoint3DY="155.75">
+                  <matrix>
+                    <Matrix tx="359" ty="-11"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelect2" name="keybox2" centerPoint3DX="443" centerPoint3DY="166.75">
+                  <matrix>
+                    <Matrix tx="359"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="keybox1" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelect1" name="keybox1">
+                  <matrix>
+                    <Matrix tx="179"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="bounceIn">
+              <tweens>
+                <Ease target="all" method="bounceIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelect1" name="keybox1" centerPoint3DX="263" centerPoint3DY="199.75">
+                  <matrix>
+                    <Matrix tx="179" ty="33"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="bounceOut">
+              <tweens>
+                <Ease target="all" method="bounceOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelect1" name="keybox1" centerPoint3DX="263" centerPoint3DY="155.75">
+                  <matrix>
+                    <Matrix tx="179" ty="-11"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelect1" name="keybox1" selected="true" centerPoint3DX="263" centerPoint3DY="166.75">
+                  <matrix>
+                    <Matrix tx="179"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="keybox0" color="#009999" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelect0" name="keybox0">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="bounceIn">
+              <tweens>
+                <Ease target="all" method="bounceIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelect0" name="keybox0" centerPoint3DX="84" centerPoint3DY="206.3">
+                  <matrix>
+                    <Matrix ty="31"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="bounceOut">
+              <tweens>
+                <Ease target="all" method="bounceOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelect0" name="keybox0" centerPoint3DX="84" centerPoint3DY="164.3">
+                  <matrix>
+                    <Matrix ty="-11"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="7" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="buyKeyContainer/Mc_buyKeySelect0" name="keybox0" centerPoint3DX="84" centerPoint3DY="175.3">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

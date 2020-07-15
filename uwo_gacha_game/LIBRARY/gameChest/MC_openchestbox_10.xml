@@ -1,0 +1,826 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="gameChest/MC_openchestbox_10" itemID="5b184f31-00000730" lastModified="1528937228" lastUniqueIdentifier="10">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="MC_openchestbox_10" currentFrame="2">
+      <layers>
+        <DOMLayer name="Layer_2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="23" name="start" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_3" color="#FF800A" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="23" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="24" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_8" color="#FF4F4F" locked="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#993300"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-58 6241|15342 6241!15342 6241|15342 6379!15342 6379|-58 6379!-58 6379|-58 6241"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="9" tweenType="shape" keyMode="17922" easeMethodName="quadIn">
+              <tweens>
+                <Ease target="all" method="quadIn"/>
+              </tweens>
+              <MorphShape>
+                <morphSegments>
+                  <MorphSegment startPointA="-0.2265625, #18.61" startPointB="-0.2265625, #12.46" strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="0">
+                    <MorphCurves controlPointA="#1D.DA, #18.61" anchorPointA="#3B.EE, #18.61" controlPointB="#1D.DA, #12.46" anchorPointB="#3B.EE, #12.46" isLine="true"/>
+                    <MorphCurves controlPointA="#3B.EE, #18.A6" anchorPointA="#3B.EE, #18.EB" controlPointB="#3B.EE, #15.98" anchorPointB="#3B.EE, #18.EA" isLine="true"/>
+                    <MorphCurves controlPointA="#1D.DA, #18.EB" anchorPointA="-0.2265625, #18.EB" controlPointB="#1D.DA, #18.EA" anchorPointB="-0.2265625, #18.EA" isLine="true"/>
+                    <MorphCurves controlPointA="-0.2265625, #18.A6" anchorPointA="-0.2265625, #18.61" controlPointB="-0.2265625, #15.98" anchorPointB="-0.2265625, #12.46" isLine="true"/>
+                  </MorphSegment>
+                </morphSegments>
+                <morphHintsList/>
+              </MorphShape>
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#993300"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-58 6241|15342 6241!15342 6241|15342 6379!15342 6379|-58 6379!-58 6379|-58 6241"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" duration="14" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#993300"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-58 4678|15342 4678!15342 4678|15342 6378!15342 6378|-58 6378!-58 6378|-58 4678"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_9" color="#00FFFF" parentLayerIndex="2" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="25" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="gameChest/sand-row2.png">
+                  <matrix>
+                    <Matrix a="1.19244384765625" tx="2" ty="249"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="chestBox5" color="#669900" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="12" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox5">
+                  <matrix>
+                    <Matrix tx="5.05" ty="115.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintIn">
+              <tweens>
+                <Ease target="all" method="quintIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox5" selected="true" centerPoint3DX="115.05" centerPoint3DY="217.5">
+                  <matrix>
+                    <Matrix tx="5.05" ty="122.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintOut">
+              <tweens>
+                <Ease target="all" method="quintOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox5" selected="true" centerPoint3DX="115.05" centerPoint3DY="195.5">
+                  <matrix>
+                    <Matrix tx="5.05" ty="100.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="21" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox5" selected="true" centerPoint3DX="115.05" centerPoint3DY="210.5">
+                  <matrix>
+                    <Matrix tx="5.05" ty="115.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="chestBox6" color="#FF4F4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="9" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox6">
+                  <matrix>
+                    <Matrix tx="136.5" ty="117.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintIn">
+              <tweens>
+                <Ease target="all" method="quintIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox6" centerPoint3DX="246.5" centerPoint3DY="219.5">
+                  <matrix>
+                    <Matrix tx="136.5" ty="124.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintOut">
+              <tweens>
+                <Ease target="all" method="quintOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox6" centerPoint3DX="246.5" centerPoint3DY="197.5">
+                  <matrix>
+                    <Matrix tx="136.5" ty="102.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" duration="7" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox6" centerPoint3DX="246.5" centerPoint3DY="212.5">
+                  <matrix>
+                    <Matrix tx="136.5" ty="117.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="chestBox7" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox7">
+                  <matrix>
+                    <Matrix tx="275.95" ty="108.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintIn">
+              <tweens>
+                <Ease target="all" method="quintIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox7" centerPoint3DX="385.95" centerPoint3DY="210.5">
+                  <matrix>
+                    <Matrix tx="275.95" ty="115.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintOut">
+              <tweens>
+                <Ease target="all" method="quintOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox7" centerPoint3DX="385.95" centerPoint3DY="188.5">
+                  <matrix>
+                    <Matrix tx="275.95" ty="93.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="10" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox7" centerPoint3DX="385.95" centerPoint3DY="203.5">
+                  <matrix>
+                    <Matrix tx="275.95" ty="108.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="chestBox8" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="9" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox8">
+                  <matrix>
+                    <Matrix tx="417.4" ty="116.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintIn">
+              <tweens>
+                <Ease target="all" method="quintIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox8" centerPoint3DX="527.4" centerPoint3DY="218.5">
+                  <matrix>
+                    <Matrix tx="417.4" ty="123.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintOut">
+              <tweens>
+                <Ease target="all" method="quintOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox8" centerPoint3DX="527.4" centerPoint3DY="196.5">
+                  <matrix>
+                    <Matrix tx="417.4" ty="101.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" duration="7" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox8" centerPoint3DX="527.4" centerPoint3DY="211.5">
+                  <matrix>
+                    <Matrix tx="417.4" ty="116.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="chestBox9" color="#00FFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="12" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox9">
+                  <matrix>
+                    <Matrix tx="549" ty="113.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintIn">
+              <tweens>
+                <Ease target="all" method="quintIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox9" centerPoint3DX="659" centerPoint3DY="215.5">
+                  <matrix>
+                    <Matrix tx="549" ty="120.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintOut">
+              <tweens>
+                <Ease target="all" method="quintOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox9" centerPoint3DX="659" centerPoint3DY="193.5">
+                  <matrix>
+                    <Matrix tx="549" ty="98.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="21" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox9" centerPoint3DX="659" centerPoint3DY="208.5">
+                  <matrix>
+                    <Matrix tx="549" ty="113.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_8" color="#FF4F4F" locked="true" autoNamed="false" layerType="mask">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#993300"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!80 3937|15238 3937!15238 3937|15238 4018!15238 4018|80 4018!80 4018|80 3937"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" duration="9" tweenType="shape" keyMode="17922" easeMethodName="quadIn">
+              <tweens>
+                <Ease target="all" method="quadIn"/>
+              </tweens>
+              <MorphShape>
+                <morphSegments>
+                  <MorphSegment startPointA="#0.5, #F.61" startPointB="#0.5, #9.0E" strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="0">
+                    <MorphCurves controlPointA="#1D.EB, #F.61" anchorPointA="#3B.86, #F.61" controlPointB="#1D.EB, #9.0E" anchorPointB="#3B.86, #9.0E" isLine="true"/>
+                    <MorphCurves controlPointA="#3B.86, #F.8A" anchorPointA="#3B.86, #F.B2" controlPointB="#3B.86, #C.6" anchorPointB="#3B.86, #F.B2" isLine="true"/>
+                    <MorphCurves controlPointA="#1D.EB, #F.B2" anchorPointA="#0.5, #F.B2" controlPointB="#1D.EB, #F.B2" anchorPointB="#0.5, #F.B2" isLine="true"/>
+                    <MorphCurves controlPointA="#0.5, #F.8A" anchorPointA="#0.5, #F.61" controlPointB="#0.5, #C.6" anchorPointB="#0.5, #9.0E" isLine="true"/>
+                  </MorphSegment>
+                </morphSegments>
+                <morphHintsList/>
+              </MorphShape>
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#993300"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!80 3937|15238 3937!15238 3937|15238 4018!15238 4018|80 4018!80 4018|80 3937"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="13" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#993300"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!80 2318|15238 2318!15238 2318|15238 4018!15238 4018|80 4018!80 4018|80 2318"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_9" color="#00FFFF" parentLayerIndex="9" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="25" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="gameChest/sand-row2.png">
+                  <matrix>
+                    <Matrix a="1.18612670898438" tx="4" ty="129"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="chestBox0" color="#009999" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="15" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox0">
+                  <matrix>
+                    <Matrix tx="8.05" ty="-4.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintIn">
+              <tweens>
+                <Ease target="all" method="quintIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox0" centerPoint3DX="118.05" centerPoint3DY="95.1">
+                  <matrix>
+                    <Matrix tx="8.05" ty="0.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="21" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintOut">
+              <tweens>
+                <Ease target="all" method="quintOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox0" centerPoint3DX="118.05" centerPoint3DY="81.1">
+                  <matrix>
+                    <Matrix tx="8.05" ty="-13.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox0" centerPoint3DX="118.05" centerPoint3DY="90.1">
+                  <matrix>
+                    <Matrix tx="8.05" ty="-4.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="chestBox1" color="#FF0000" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="12" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox1">
+                  <matrix>
+                    <Matrix tx="146.5" ty="-4.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintIn">
+              <tweens>
+                <Ease target="all" method="quintIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox1" centerPoint3DX="256.5" centerPoint3DY="95.1">
+                  <matrix>
+                    <Matrix tx="146.5" ty="0.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintOut">
+              <tweens>
+                <Ease target="all" method="quintOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox1" centerPoint3DX="256.5" centerPoint3DY="81.1">
+                  <matrix>
+                    <Matrix tx="146.5" ty="-13.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="21" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox1" centerPoint3DX="256.5" centerPoint3DY="90.1">
+                  <matrix>
+                    <Matrix tx="146.5" ty="-4.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="chestBox2" color="#FF0000" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="9" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox2">
+                  <matrix>
+                    <Matrix tx="278.95" ty="-6.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintIn">
+              <tweens>
+                <Ease target="all" method="quintIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox2" centerPoint3DX="388.95" centerPoint3DY="93.1">
+                  <matrix>
+                    <Matrix tx="278.95" ty="-1.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintOut">
+              <tweens>
+                <Ease target="all" method="quintOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox2" centerPoint3DX="388.95" centerPoint3DY="79.1">
+                  <matrix>
+                    <Matrix tx="278.95" ty="-15.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" duration="7" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox2" centerPoint3DX="388.95" centerPoint3DY="88.1">
+                  <matrix>
+                    <Matrix tx="278.95" ty="-6.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="chestBox3" color="#009999" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="12" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox3">
+                  <matrix>
+                    <Matrix tx="415.4" ty="-1.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintIn">
+              <tweens>
+                <Ease target="all" method="quintIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox3" centerPoint3DX="525.4" centerPoint3DY="98.1">
+                  <matrix>
+                    <Matrix tx="415.4" ty="3.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintOut">
+              <tweens>
+                <Ease target="all" method="quintOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox3" centerPoint3DX="525.4" centerPoint3DY="84.1">
+                  <matrix>
+                    <Matrix tx="415.4" ty="-10.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="21" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox3" centerPoint3DX="525.4" centerPoint3DY="93.1">
+                  <matrix>
+                    <Matrix tx="415.4" ty="-1.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="chestBox4" color="#FF4FFF" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="15" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox4">
+                  <matrix>
+                    <Matrix tx="553" ty="-6.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintIn">
+              <tweens>
+                <Ease target="all" method="quintIn"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox4" centerPoint3DX="663" centerPoint3DY="93.1">
+                  <matrix>
+                    <Matrix tx="553" ty="-1.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="21" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quintOut">
+              <tweens>
+                <Ease target="all" method="quintOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox4" centerPoint3DX="663" centerPoint3DY="79.1">
+                  <matrix>
+                    <Matrix tx="553" ty="-15.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameChest/Chestbox" name="chestBox4" centerPoint3DX="663" centerPoint3DY="88.1">
+                  <matrix>
+                    <Matrix tx="553" ty="-6.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="94.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

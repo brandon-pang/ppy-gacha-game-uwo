@@ -1,0 +1,53 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="gameResult/Btn_result_back" itemID="5b1ad270-00000635" symbolType="button" lastModified="1528484817">
+  <timeline>
+    <DOMTimeline name="Btn_result_back">
+      <layers>
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="1.30650329589844" d="1.29231262207031" tx="27" ty="23.6"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!259 57|114 200!114 200|260 344!260 344|202 400!202 400|0 200!0 200|202 0!202 0|259 57"/>
+                    <Edge cubics="!259 57(;259,57 114,200 114,200q259 57p114 200);"/>
+                    <Edge cubics="!114 200(;114,200 260,344 260,344q114 200p260 344);"/>
+                    <Edge cubics="!260 344(;260,344 202,400 202,400q260 344p202 400);"/>
+                    <Edge cubics="!202 400(;202,400 0,200 0,200q202 400p0 200);"/>
+                    <Edge cubics="!0 200(;0,200 202,0 202,0q0 200p202 0);"/>
+                    <Edge cubics="!202 0(;202,0 259,57 259,57q202 0p259 57);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#183F6A"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 0|1480 0!1480 0|1480 1480!1480 1480|0 1480!0 1480|0 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

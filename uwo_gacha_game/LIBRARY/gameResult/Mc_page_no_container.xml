@@ -1,0 +1,56 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="gameResult/Mc_page_no_container" itemID="5b1f03b6-00000a8a" lastModified="1528759268" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="Mc_page_no_container">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameResult/mc_pagenation" name="btn_page_no0">
+                  <matrix>
+                    <Matrix tx="-1.5" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="gameResult/mc_pagenation" name="btn_page_no1">
+                  <matrix>
+                    <Matrix tx="10.5" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="gameResult/mc_pagenation" name="btn_page_no2">
+                  <matrix>
+                    <Matrix tx="22.5" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="gameResult/mc_pagenation" name="btn_page_no3">
+                  <matrix>
+                    <Matrix tx="34.5" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="gameResult/mc_pagenation" name="btn_page_no4" selected="true">
+                  <matrix>
+                    <Matrix tx="46.5" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

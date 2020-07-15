@@ -1,0 +1,93 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="gameResult/Mc_resultContainer2" itemID="5b1ef154-000007fc" lastModified="1528771897">
+  <timeline>
+    <DOMTimeline name="Mc_resultContainer2">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gameResult/Mc_result_bg" name="box0" centerPoint3DX="370.75" centerPoint3DY="171.95">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="gameResult/Mc_result_bg" name="box1" selected="true" centerPoint3DX="1130.75" centerPoint3DY="171.95">
+                  <matrix>
+                    <Matrix tx="760"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="gameResult/Mc_result_bg" name="box2" centerPoint3DX="1890.75" centerPoint3DY="171.95">
+                  <matrix>
+                    <Matrix tx="1520"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="gameResult/Mc_result_bg" name="box3" centerPoint3DX="2650.75" centerPoint3DY="171.95">
+                  <matrix>
+                    <Matrix tx="2280"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="gameResult/Mc_result_bg" name="box4" centerPoint3DX="3410.75" centerPoint3DY="171.95">
+                  <matrix>
+                    <Matrix tx="3040"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="gameResult/Mc_result_bg" name="box5" centerPoint3DX="4170.75" centerPoint3DY="171.95">
+                  <matrix>
+                    <Matrix tx="3800"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="gameResult/Mc_result_bg" name="box6" centerPoint3DX="4930.75" centerPoint3DY="171.95">
+                  <matrix>
+                    <Matrix tx="4560"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="gameResult/Mc_result_bg" name="box7" centerPoint3DX="5690.75" centerPoint3DY="171.95">
+                  <matrix>
+                    <Matrix tx="5320"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="gameResult/Mc_result_bg" name="box8" centerPoint3DX="6450.75" centerPoint3DY="171.95">
+                  <matrix>
+                    <Matrix tx="6080"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="gameResult/Mc_result_bg" name="box9" centerPoint3DX="7210.75" centerPoint3DY="171.95">
+                  <matrix>
+                    <Matrix tx="6840"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
